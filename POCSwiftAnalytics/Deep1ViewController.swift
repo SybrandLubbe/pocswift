@@ -14,6 +14,7 @@ class Deep1ViewController: UIViewController {
         super.viewDidLoad()
         
         self.title = "Deep Link"
+        //This is where you add the analytics code:
         
         /*
         ADBMobile.trackState("PageName", data: [

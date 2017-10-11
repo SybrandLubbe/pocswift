@@ -14,14 +14,7 @@ class Deep1ViewController: UIViewController {
         super.viewDidLoad()
         
         self.title = "Deep Link"
-        //This is where you add the analytics code:
         
-        /*
-        ADBMobile.trackState("PageName", data: [
-            "Link1": title!
-            ])
-        ADBMobile.trackTimedActionStart("PageName", data: nil)
-          */
         
         let screenSize = UIScreen.main.bounds
         let screenWidth = screenSize.width

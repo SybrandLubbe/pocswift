@@ -15,12 +15,7 @@ class ViewController: UIViewController {
         
         self.title = "Analytics"
         
-        /*
- ADBMobile.trackState("PageName", data: [
-            "pageView": title!
-            ])
-        ADBMobile.trackTimedActionStart("PageName", data: nil)
-     */
+        
     }
 
     override func didReceiveMemoryWarning() {

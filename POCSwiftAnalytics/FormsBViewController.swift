@@ -14,14 +14,7 @@ class FormsBViewController: UIViewController {
         super.viewDidLoad()
         
         self.title = "Forms Data"
-        //This is where you add the analytics code:
-
-        /*
-        ADBMobile.trackState("PageName", data: [
-            "ButtonName": title!
-            ])
-        ADBMobile.trackTimedActionStart("PageName", data: nil)
-          */         
+              
     }
 
     override func didReceiveMemoryWarning() {

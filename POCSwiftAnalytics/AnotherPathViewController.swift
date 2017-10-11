@@ -15,6 +15,7 @@ class AnotherPathViewController: UIViewController {
         super.viewDidLoad()
         
         self.title = "Final Screen"
+        //This is where you add the analytics code:
         
         /*
         ADBMobile.trackState("PageName", data: [

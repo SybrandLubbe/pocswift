@@ -14,6 +14,7 @@ class Deep2ViewController: UIViewController {
         super.viewDidLoad()
         
         self.title = "Links"
+        //This is where you add the analytics code:
         
         /*
         ADBMobile.trackState("PageName", data: [

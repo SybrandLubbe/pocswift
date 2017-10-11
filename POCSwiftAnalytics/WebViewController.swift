@@ -16,6 +16,7 @@ class WebViewController: UIViewController {
         override func viewDidLoad() {
             super.viewDidLoad()
             self.title = "A Website View"
+            //This is where you add the analytics code:
             
             /*
             ADBMobile.trackState("PageName", data: [

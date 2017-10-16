@@ -22,6 +22,7 @@
 		2D9272831F8BA9AF00FD5D00 /* Deep1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9272821F8BA9AF00FD5D00 /* Deep1ViewController.swift */; };
 		2D9272851F8BAA3B00FD5D00 /* Deep2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9272841F8BAA3B00FD5D00 /* Deep2ViewController.swift */; };
 		2DDA67061F8D004000056070 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DDA67051F8D004000056070 /* libsqlite3.0.tbd */; };
+		2DEB1D5D1F948B9C00FA78D3 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DEB1D5C1F948B9C00FA78D3 /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,7 @@
 		2D9272821F8BA9AF00FD5D00 /* Deep1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deep1ViewController.swift; sourceTree = "<group>"; };
 		2D9272841F8BAA3B00FD5D00 /* Deep2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deep2ViewController.swift; sourceTree = "<group>"; };
 		2DDA67051F8D004000056070 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		2DEB1D5C1F948B9C00FA78D3 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DEB1D5D1F948B9C00FA78D3 /* SystemConfiguration.framework in Frameworks */,
 				2D2F62B01F8D24CC00844303 /* AdobeMobileLibrary.a in Frameworks */,
 				2DDA67061F8D004000056070 /* libsqlite3.0.tbd in Frameworks */,
 			);
@@ -98,6 +101,7 @@
 		2D2F25121F8CBE62000A2200 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2DEB1D5C1F948B9C00FA78D3 /* SystemConfiguration.framework */,
 				2DDA67051F8D004000056070 /* libsqlite3.0.tbd */,
 			);
 			name = Frameworks;

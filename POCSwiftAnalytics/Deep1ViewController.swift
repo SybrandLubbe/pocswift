@@ -42,8 +42,40 @@ class Deep1ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    
+    //@IBAction func pressButton(_ sender: UIButton) {
     @objc func pressButton(button: UIButton) {
+        // create the alert
+        // create the alert
+        let alert = UIAlertController(title: "You are about to leave", message: "Are you sure you would like to close this screen?", preferredStyle: UIAlertControllerStyle.alert)
+        
+        // add the actions (buttons)
+        /*alert.addAction(UIAlertAction(title: "Yes", style: UIAlertActionStyle.default, handler: {
+            (alertAction: UIAlertAction!) in
+            self.dismiss(animated: true, completion: nil)
+        }))*/
+        
+        alert.addAction(UIAlertAction(title: "Yes", style: UIAlertActionStyle.default, handler: {action in self.closeMyScreen()}))
+        alert.addAction(UIAlertAction(title: "No", style: UIAlertActionStyle.cancel, handler: nil))
+        
+        // show the alert
+        self.present(alert, animated: true, completion: nil)
+    }
+    
+    
+    func closeMyScreen () {
         self.dismiss(animated: true, completion: nil)
     }
-
+    
+    /*
+    @objc func pressButton(button: UIButton) {
+        
+        let alert = UIAlertController(title: "Alert", message: "Message", preferredStyle: UIAlertControllerStyle.alert)
+        alert.addAction(UIAlertAction(title: "Click", style: UIAlertActionStyle.default, handler: nil))
+        self.present(alert, animated: true, completion: nil)
+        
+        
+        self.dismiss(animated: true, completion: nil)
+    }
+     */
 }

@@ -14,7 +14,6 @@ class FormsBViewController: UIViewController {
         super.viewDidLoad()
         
         self.title = "Forms Data"
-        //This is where you add the analytics code:
 
         // To be placed in a function that handles the previous form completion
         TrackingHelper.trackEvent(actionName: "Form Completed", contextData: ["n.formsubmitted": "1", "n.formname": "Form A"])
@@ -27,6 +26,9 @@ class FormsBViewController: UIViewController {
         
         // To be placed in a function that handles the previous form completion
         TrackingHelper.trackEvent(actionName: "Form Completed", contextData: ["n.formsubmitted": "1", "n.formname": "Form B"])
+
+
+        
     }
 
     override func didReceiveMemoryWarning() {

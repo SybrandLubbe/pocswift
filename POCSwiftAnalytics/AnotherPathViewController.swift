@@ -15,7 +15,6 @@ class AnotherPathViewController: UIViewController {
         super.viewDidLoad()
         
         self.title = "Final Screen"
-        //This is where you add the analytics code:
         
         TrackingHelper.trackScreenView(screenName: "Final Screen", contextData: [:])
         

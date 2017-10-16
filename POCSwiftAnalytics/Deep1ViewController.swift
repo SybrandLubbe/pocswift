@@ -14,9 +14,8 @@ class Deep1ViewController: UIViewController {
         super.viewDidLoad()
         
         self.title = "Deep Link"
-        //This is where you add the analytics code:
         
-       TrackingHelper.trackScreenView(screenName: "Deep Link 1", contextData: [:])
+        TrackingHelper.trackScreenView(screenName: "Deep Link 1", contextData: [:])
         
         let screenSize = UIScreen.main.bounds
         let screenWidth = screenSize.width

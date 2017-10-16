@@ -14,7 +14,6 @@ class Deep2ViewController: UIViewController {
         super.viewDidLoad()
         
         self.title = "Links"
-        //This is where you add the analytics code:
         
         TrackingHelper.trackScreenView(screenName: "Deep Link 2", contextData: [:])
         

@@ -14,7 +14,6 @@ class FormsAViewController: UIViewController {
         super.viewDidLoad()
         
         self.title = "Forms"
-        //This is where you add the analytics code:
 
         TrackingHelper.trackScreenView(screenName: "Form A", contextData: [:])
         

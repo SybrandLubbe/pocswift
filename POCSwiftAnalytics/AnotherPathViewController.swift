@@ -17,12 +17,7 @@ class AnotherPathViewController: UIViewController {
         self.title = "Final Screen"
         //This is where you add the analytics code:
         
-        /*
-        ADBMobile.trackState("PageName", data: [
-            "FinalScreen": title!
-            ])
-        ADBMobile.trackTimedActionStart("PageName", data: nil)
-          */
+        TrackingHelper.trackScreenView(screenName: "Final Screen", contextData: [:])
         
         let screenSize = UIScreen.main.bounds
         let screenWidth = screenSize.width

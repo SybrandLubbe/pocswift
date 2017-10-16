@@ -22,6 +22,11 @@
 		2D9272831F8BA9AF00FD5D00 /* Deep1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9272821F8BA9AF00FD5D00 /* Deep1ViewController.swift */; };
 		2D9272851F8BAA3B00FD5D00 /* Deep2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9272841F8BAA3B00FD5D00 /* Deep2ViewController.swift */; };
 		2DDA67061F8D004000056070 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DDA67051F8D004000056070 /* libsqlite3.0.tbd */; };
+		2DEB1D611F948C7000FA78D3 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DEB1D601F948C7000FA78D3 /* SystemConfiguration.framework */; };
+		2DEB1D631F948C8E00FA78D3 /* TrackingHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DEB1D621F948C8E00FA78D3 /* TrackingHelper.swift */; };
+		2DEB1D651F94907F00FA78D3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DEB1D641F94907F00FA78D3 /* UIKit.framework */; };
+		2DEB1D671F94908B00FA78D3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DEB1D661F94908B00FA78D3 /* CoreGraphics.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		2DEB1D691F9490A000FA78D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DEB1D681F9490A000FA78D3 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +71,11 @@
 		2D9272821F8BA9AF00FD5D00 /* Deep1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deep1ViewController.swift; sourceTree = "<group>"; };
 		2D9272841F8BAA3B00FD5D00 /* Deep2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deep2ViewController.swift; sourceTree = "<group>"; };
 		2DDA67051F8D004000056070 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		2DEB1D601F948C7000FA78D3 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		2DEB1D621F948C8E00FA78D3 /* TrackingHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackingHelper.swift; sourceTree = "<group>"; };
+		2DEB1D641F94907F00FA78D3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2DEB1D661F94908B00FA78D3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2DEB1D681F9490A000FA78D3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +83,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DEB1D691F9490A000FA78D3 /* Foundation.framework in Frameworks */,
+				2DEB1D671F94908B00FA78D3 /* CoreGraphics.framework in Frameworks */,
+				2DEB1D651F94907F00FA78D3 /* UIKit.framework in Frameworks */,
+				2DEB1D611F948C7000FA78D3 /* SystemConfiguration.framework in Frameworks */,
 				2D2F62B01F8D24CC00844303 /* AdobeMobileLibrary.a in Frameworks */,
 				2DDA67061F8D004000056070 /* libsqlite3.0.tbd in Frameworks */,
 			);
@@ -98,6 +112,10 @@
 		2D2F25121F8CBE62000A2200 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2DEB1D681F9490A000FA78D3 /* Foundation.framework */,
+				2DEB1D661F94908B00FA78D3 /* CoreGraphics.framework */,
+				2DEB1D641F94907F00FA78D3 /* UIKit.framework */,
+				2DEB1D601F948C7000FA78D3 /* SystemConfiguration.framework */,
 				2DDA67051F8D004000056070 /* libsqlite3.0.tbd */,
 			);
 			name = Frameworks;
@@ -106,6 +124,7 @@
 		2D2F62AB1F8D17EA00844303 /* AdobeAnalytics */ = {
 			isa = PBXGroup;
 			children = (
+				2DEB1D621F948C8E00FA78D3 /* TrackingHelper.swift */,
 				2D2F62AC1F8D180F00844303 /* ADBMobile.h */,
 				2D2F62AD1F8D181000844303 /* ADBMobileConfig.json */,
 				2D2F62AE1F8D181000844303 /* AdobeMobileLibrary.a */,
@@ -311,6 +330,7 @@
 				2D9272831F8BA9AF00FD5D00 /* Deep1ViewController.swift in Sources */,
 				2D81EC311F8B870D00808951 /* FormsBViewController.swift in Sources */,
 				2D9272851F8BAA3B00FD5D00 /* Deep2ViewController.swift in Sources */,
+				2DEB1D631F948C8E00FA78D3 /* TrackingHelper.swift in Sources */,
 				2D81EC031F8B861000808951 /* ViewController.swift in Sources */,
 				2D9272811F8B920E00FD5D00 /* AnotherPathViewController.swift in Sources */,
 				2D81EC331F8B879A00808951 /* WebViewController.swift in Sources */,

@@ -16,12 +16,7 @@ class Deep2ViewController: UIViewController {
         self.title = "Links"
         //This is where you add the analytics code:
         
-        /*
-        ADBMobile.trackState("PageName", data: [
-            "Link2": title!
-            ])
-        ADBMobile.trackTimedActionStart("PageName", data: nil)
-          */
+        TrackingHelper.trackScreenView(screenName: "Deep Link 2", contextData: [:])
         
         let screenSize = UIScreen.main.bounds
         let screenWidth = screenSize.width

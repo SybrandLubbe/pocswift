@@ -16,12 +16,10 @@ class FormsAViewController: UIViewController {
         self.title = "Forms"
         //This is where you add the analytics code:
 
-        /*
-        ADBMobile.trackState("PageName", data: [
-            "FormName": title!
-            ])
-        ADBMobile.trackTimedActionStart("PageName", data: nil)
-         */
+        TrackingHelper.trackScreenView(screenName: "Form A", contextData: [:])
+        
+        // To be placed in a function which handles the first input on a form
+        TrackingHelper.trackEvent(actionName: "Form Started", contextData: ["n.formstarted": "1", "n.formname": "Form A"])
     }
 
     override func didReceiveMemoryWarning() {

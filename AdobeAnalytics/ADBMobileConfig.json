@@ -1,8 +1,5 @@
 {
-    "lastModified": "2016-08-24T10:13:55.110Z",
-    "marketingCloud": {
-        "org": "3EF38F7157176F7A7F000101@AdobeOrg"
-    },
+    "lastModified": "2017-10-12T13:15:23.338Z",
     "target": {
         "clientCode": "",
         "timeout": 5
@@ -14,11 +11,11 @@
     },
     "acquisition": {
         "server": "c00.adobe.com",
-        "appid": "5d221db977b226252b3caa2378f6da813b643622311edd4ae2538e8b94f144e8"
+        "appid": "32059d6a0d173f1cd4b38c116c277f904c107f78d2fe6aacac45f35f9aa21e61"
     },
     "analytics": {
-        "rsids": "geo1xxlonjerometestapp",
-        "server": "accelerationpartnersandbox.sc.omtrdc.net",
+        "rsids": "nedbank.ibr-app.staging",
+        "server": "nedbank.sc.omtrdc.net",
         "ssl": true,
         "offlineEnabled": true,
         "charset": "UTF-8",
@@ -28,12 +25,12 @@
         "timezone": "CAT",
         "timezoneOffset": 120,
         "referrerTimeout": 0,
-        "backdateSessionInfo": true,
+        "backdateSessionInfo": false,
         "poi": []
     },
     "messages": [],
     "remotes": {
-        "analytics.poi": "https://assets.adobedtm.com/b213090c5204bf94318f4ef0539a38b487d10368/scripts/satellite-57bd438b64746d4d4100495a.json",
-        "messages": "https://assets.adobedtm.com/b213090c5204bf94318f4ef0539a38b487d10368/scripts/satellite-57bd438a64746d361c004c42.json"
+        "analytics.poi": "https://assets.adobedtm.com/b213090c5204bf94318f4ef0539a38b487d10368/scripts/satellite-59df493164746d626900104b.json",
+        "messages": "https://assets.adobedtm.com/b213090c5204bf94318f4ef0539a38b487d10368/scripts/satellite-59df493164746d3ec4005c39.json"
     }
 }

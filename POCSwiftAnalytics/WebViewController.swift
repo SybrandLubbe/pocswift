@@ -18,12 +18,7 @@ class WebViewController: UIViewController {
             self.title = "A Website View"
             //This is where you add the analytics code:
             
-            /*
-            ADBMobile.trackState("PageName", data: [
-                "WebSite": title!
-                ])
-            ADBMobile.trackTimedActionStart("PageName", data: nil)
-          */
+            TrackingHelper.trackScreenView(screenName: "Website View", contextData: [:])
             
             // init webView
             webView = WKWebView(frame: view.bounds)

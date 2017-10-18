@@ -22,6 +22,7 @@
 		2D9272831F8BA9AF00FD5D00 /* Deep1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9272821F8BA9AF00FD5D00 /* Deep1ViewController.swift */; };
 		2D9272851F8BAA3B00FD5D00 /* Deep2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9272841F8BAA3B00FD5D00 /* Deep2ViewController.swift */; };
 		2DDA67061F8D004000056070 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DDA67051F8D004000056070 /* libsqlite3.0.tbd */; };
+		2DEB1DAD1F97855B00FA78D3 /* anotherViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DEB1DAC1F97855B00FA78D3 /* anotherViewViewController.swift */; };
 		796E115D1F8F9E7200CB8183 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79FFE23A1F8F887300A14188 /* SystemConfiguration.framework */; };
 		796E115F1F8F9EA900CB8183 /* TrackingHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796E115E1F8F9EA900CB8183 /* TrackingHelper.swift */; };
 		796E11601F8FA18F00CB8183 /* ADBMobileConfig.json in Resources */ = {isa = PBXBuildFile; fileRef = 2D2F62AD1F8D181000844303 /* ADBMobileConfig.json */; };
@@ -75,6 +76,7 @@
 		2D9272821F8BA9AF00FD5D00 /* Deep1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deep1ViewController.swift; sourceTree = "<group>"; };
 		2D9272841F8BAA3B00FD5D00 /* Deep2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deep2ViewController.swift; sourceTree = "<group>"; };
 		2DDA67051F8D004000056070 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		2DEB1DAC1F97855B00FA78D3 /* anotherViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = anotherViewViewController.swift; sourceTree = "<group>"; };
 		796E115E1F8F9EA900CB8183 /* TrackingHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackingHelper.swift; sourceTree = "<group>"; };
 		79FFE23A1F8F887300A14188 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		79FFE23E1F8F88E000A14188 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -172,6 +174,7 @@
 				2D81EC321F8B879A00808951 /* WebViewController.swift */,
 				2D9272821F8BA9AF00FD5D00 /* Deep1ViewController.swift */,
 				2D9272841F8BAA3B00FD5D00 /* Deep2ViewController.swift */,
+				2DEB1DAC1F97855B00FA78D3 /* anotherViewViewController.swift */,
 				2D81EC041F8B861000808951 /* Main.storyboard */,
 				2D81EC071F8B861000808951 /* Assets.xcassets */,
 				2D81EC091F8B861000808951 /* LaunchScreen.storyboard */,
@@ -335,6 +338,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D81EC2F1F8B86FF00808951 /* FormsAViewController.swift in Sources */,
+				2DEB1DAD1F97855B00FA78D3 /* anotherViewViewController.swift in Sources */,
 				2D9272831F8BA9AF00FD5D00 /* Deep1ViewController.swift in Sources */,
 				2D81EC311F8B870D00808951 /* FormsBViewController.swift in Sources */,
 				2D9272851F8BAA3B00FD5D00 /* Deep2ViewController.swift in Sources */,

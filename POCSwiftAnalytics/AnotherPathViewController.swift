@@ -47,7 +47,7 @@ class AnotherPathViewController: UIViewController {
     @objc func pressButton(button: UIButton) {
         // create the alert
         // create the alert
-        let alert = UIAlertController(title: "You are about to leave", message: "Are you sure you would like to close this screen?", preferredStyle: UIAlertControllerStyle.alert)
+        let alert = UIAlertController(title: "You are about to leave", message: "Are you sure you want to close this screen?", preferredStyle: UIAlertControllerStyle.alert)
         
         // add the actions (buttons)
         /*alert.addAction(UIAlertAction(title: "Yes", style: UIAlertActionStyle.default, handler: {

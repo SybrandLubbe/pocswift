@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D044E1D1F988F30006E971F /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D044E1C1F988F30006E971F /* StartViewController.swift */; };
+		2D044E1F1F988F61006E971F /* StartView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D044E1E1F988F61006E971F /* StartView.xib */; };
+		2D044E211F98909B006E971F /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D044E201F98909B006E971F /* StartView.swift */; };
 		2D2F62B01F8D24CC00844303 /* AdobeMobileLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D2F62AE1F8D181000844303 /* AdobeMobileLibrary.a */; };
 		2D81EC011F8B861000808951 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D81EC001F8B861000808951 /* AppDelegate.swift */; };
 		2D81EC031F8B861000808951 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D81EC021F8B861000808951 /* ViewController.swift */; };
@@ -52,6 +55,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2D044E1C1F988F30006E971F /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		2D044E1E1F988F61006E971F /* StartView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StartView.xib; sourceTree = "<group>"; };
+		2D044E201F98909B006E971F /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
 		2D2F62AC1F8D180F00844303 /* ADBMobile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADBMobile.h; sourceTree = "<group>"; };
 		2D2F62AD1F8D181000844303 /* ADBMobileConfig.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ADBMobileConfig.json; sourceTree = "<group>"; };
 		2D2F62AE1F8D181000844303 /* AdobeMobileLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = AdobeMobileLibrary.a; sourceTree = "<group>"; };
@@ -180,6 +186,9 @@
 				2D81EC091F8B861000808951 /* LaunchScreen.storyboard */,
 				2D81EC0C1F8B861000808951 /* Info.plist */,
 				2D2F62AF1F8D1D0A00844303 /* POCSwiftAnalytics_Bridging_Header.h */,
+				2D044E1C1F988F30006E971F /* StartViewController.swift */,
+				2D044E201F98909B006E971F /* StartView.swift */,
+				2D044E1E1F988F61006E971F /* StartView.xib */,
 			);
 			path = POCSwiftAnalytics;
 			sourceTree = "<group>";
@@ -313,6 +322,7 @@
 				2D81EC0B1F8B861000808951 /* LaunchScreen.storyboard in Resources */,
 				2D81EC081F8B861000808951 /* Assets.xcassets in Resources */,
 				2D81EC061F8B861000808951 /* Main.storyboard in Resources */,
+				2D044E1F1F988F61006E971F /* StartView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,8 +350,10 @@
 				2D81EC2F1F8B86FF00808951 /* FormsAViewController.swift in Sources */,
 				2DEB1DAD1F97855B00FA78D3 /* anotherViewViewController.swift in Sources */,
 				2D9272831F8BA9AF00FD5D00 /* Deep1ViewController.swift in Sources */,
+				2D044E211F98909B006E971F /* StartView.swift in Sources */,
 				2D81EC311F8B870D00808951 /* FormsBViewController.swift in Sources */,
 				2D9272851F8BAA3B00FD5D00 /* Deep2ViewController.swift in Sources */,
+				2D044E1D1F988F30006E971F /* StartViewController.swift in Sources */,
 				796E115F1F8F9EA900CB8183 /* TrackingHelper.swift in Sources */,
 				2D81EC031F8B861000808951 /* ViewController.swift in Sources */,
 				2D9272811F8B920E00FD5D00 /* AnotherPathViewController.swift in Sources */,

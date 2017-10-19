@@ -9,11 +9,15 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+   
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
         self.title = "Analytics"
+        
+        
         
         TrackingHelper.trackEvent(actionName: "Log In", contextData: ["n.loggedin": "1", "n.userkey": "123456"])
         TrackingHelper.trackScreenView(screenName: "Home", contextData: [:])

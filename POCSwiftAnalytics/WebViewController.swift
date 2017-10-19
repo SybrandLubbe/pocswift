@@ -28,7 +28,11 @@ class WebViewController: UIViewController {
             super.viewWillAppear(animated)
             // load url
             webView?.loadUrl(string: "https://www.nedbank.co.za")
+            UIApplication.shared.statusBarStyle = .default
+            self.navigationController?.setNavigationBarHidden(false, animated: animated)
         }
+    
+    
     }
     
     extension WKWebView {
@@ -38,4 +42,6 @@ class WebViewController: UIViewController {
             }
         }
     }
+
+
 

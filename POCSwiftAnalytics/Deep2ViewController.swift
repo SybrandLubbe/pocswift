@@ -35,6 +35,9 @@ class Deep2ViewController: UIViewController {
         button.addTarget(self, action: #selector(pressButton(button:)), for: .touchUpInside)
         self.view.addSubview(button)
         
+        let logButton : UIBarButtonItem = UIBarButtonItem(title: "Close", style: UIBarButtonItemStyle.done, target: self, action: #selector(Deep1ViewController.closeMyScreen))
+        self.navigationItem.rightBarButtonItem = logButton
+        
     }
     
     override func didReceiveMemoryWarning() {

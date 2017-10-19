@@ -13,6 +13,8 @@ class FormsBViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        self.navigationController?.isNavigationBarHidden = false
+        
         self.title = "Forms Data"
 
         // To be placed in a function that handles the previous form completion
@@ -29,6 +31,11 @@ class FormsBViewController: UIViewController {
 
 
         
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        UIApplication.shared.statusBarStyle = .default
     }
 
     override func didReceiveMemoryWarning() {

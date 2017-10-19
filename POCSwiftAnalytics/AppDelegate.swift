@@ -18,6 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         ADBMobile.collectLifecycleData()
         ADBMobile.setDebugLogging(true);
+        UIApplication.shared.statusBarStyle = .lightContent
         
         return true
     }

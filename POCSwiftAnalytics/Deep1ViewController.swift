@@ -35,6 +35,12 @@ class Deep1ViewController: UIViewController {
         button.addTarget(self, action: #selector(pressButton(button:)), for: .touchUpInside)
         self.view.addSubview(button)
         
+        let logButton : UIBarButtonItem = UIBarButtonItem(title: "Close", style: UIBarButtonItemStyle.done, target: self, action: #selector(Deep1ViewController.closeMyScreen))
+        self.navigationItem.rightBarButtonItem = logButton
+        
+        //let homeButton : UIBarButtonItem = UIBarButtonItem(title: "Home", style: UIBarButtonItemStyle.plain, target: self, action: #selector(Deep1ViewController.closeMyScreen))
+        //self.navigationItem.leftBarButtonItem = homeButton
+        
     }
     
     override func didReceiveMemoryWarning() {
@@ -67,15 +73,10 @@ class Deep1ViewController: UIViewController {
         self.dismiss(animated: true, completion: nil)
     }
     
-    /*
-    @objc func pressButton(button: UIButton) {
-        
-        let alert = UIAlertController(title: "Alert", message: "Message", preferredStyle: UIAlertControllerStyle.alert)
-        alert.addAction(UIAlertAction(title: "Click", style: UIAlertActionStyle.default, handler: nil))
-        self.present(alert, animated: true, completion: nil)
-        
-        
-        self.dismiss(animated: true, completion: nil)
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        UIApplication.shared.statusBarStyle = .default
     }
-     */
+    
+    
 }

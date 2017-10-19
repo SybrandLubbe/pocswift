@@ -19,6 +19,7 @@ class FormsAViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        
         self.title = "Forms"
         
         let toolBar = UIToolbar()
@@ -37,6 +38,12 @@ class FormsAViewController: UIViewController {
         TrackingHelper.trackScreenView(screenName: "Form A", contextData: [:])
         // To be placed in a function which handles the first input on a form
         TrackingHelper.trackEvent(actionName: "Form Started", contextData: ["n.formstarted": "1", "n.formname": "Form A"])
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        UIApplication.shared.statusBarStyle = .default
+        self.navigationController?.setNavigationBarHidden(false, animated: animated)
     }
     
     func doneClicked() {

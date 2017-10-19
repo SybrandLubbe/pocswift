@@ -14,7 +14,7 @@ class StartViewController: UIViewController, UIScrollViewDelegate {
     @IBOutlet weak var viewpagecontrol: UIPageControl!
     
     let view1 = ["logoImage":"logoset","txtlabel":"Welcome to the Nedbank and Adobe Analytics POC."]
-    let view2 = ["logoImage":"logoset","txtlabel":"This is to see how Adobe Analytics work"]
+    let view2 = ["logoImage":"analyticslogo","txtlabel":"This is to see how Adobe Analytics work"]
     let view3 = ["logoImage":"logoset","txtlabel":"Let us make analytic data"]
     
     var viewArray = [Dictionary<String,String>]()
@@ -41,7 +41,7 @@ class StartViewController: UIViewController, UIScrollViewDelegate {
     func loadviews() {
         for (index, view) in viewArray.enumerated() {
             if let startview = Bundle.main.loadNibNamed("StartView", owner: self, options: nil)?.first as? StartView {
-                startview.LogoImage.image = UIImage(named: view1["logoImage"]!)
+                startview.LogoImage.image = UIImage(named: view["logoImage"]!)
                 startview.labelTxt.text = view["txtlabel"]
 
                 StartView.addSubview(startview)

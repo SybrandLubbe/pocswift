@@ -66,10 +66,6 @@
                                     <segue destination="2HX-kZ-34Q" kind="push" id="YMQ-dK-3tm"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logoset" translatesAutoresizingMaskIntoConstraints="NO" id="3Yy-XJ-VDG">
-                                <rect key="frame" x="134" y="113" width="107" height="105"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Please make your Selection to continue" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="xTW-En-iLh">
                                 <rect key="frame" x="70" y="246" width="235" height="174"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -79,6 +75,10 @@
                                 <color key="highlightedColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="shadowColor" red="0.10014659567768427" green="0.23139573610508379" blue="0.13458649963130478" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logoset" translatesAutoresizingMaskIntoConstraints="NO" id="3Yy-XJ-VDG">
+                                <rect key="frame" x="134" y="113" width="107" height="105"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.89746768023683621" green="0.89746768023683621" blue="0.89746768023683621" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -99,7 +99,7 @@
                             <constraint firstItem="5ho-YQ-F8M" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="vOh-m2-Xdw"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="NO2-qj-JoU"/>
+                    <navigationItem key="navigationItem" leftItemsSupplementBackButton="YES" id="NO2-qj-JoU"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

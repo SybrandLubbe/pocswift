@@ -38,7 +38,7 @@ class StartViewController: UIViewController, UIScrollViewDelegate {
             if let startview = Bundle.main.loadNibNamed("StartView", owner: self, options: nil)?.first as? StartView {
                 startview.LogoImage.image = UIImage(named: view1["logoImage"]!)
                 startview.labelTxt.text = view["txtlabel"]
-                
+
                 StartView.addSubview(startview)
                 startview.frame.size.width = self.view.bounds.size.width
                 startview.frame.origin.x = CGFloat(index) * self.view.bounds.size.width

@@ -279,7 +279,7 @@
 				TargetAttributes = {
 					2D81EBFC1F8B861000808951 = {
 						CreatedOnToolsVersion = 9.0;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					2D81EC101F8B861000808951 = {
 						CreatedOnToolsVersion = 9.0;
@@ -525,7 +525,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = B44PP7SCQL;
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = "";
@@ -540,7 +540,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = za.co.gacreations.POCSwiftAnalytics;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "02e0b92f-7ac9-4a24-9157-b3aaf5bb86f7";
+				PROVISIONING_PROFILE_SPECIFIER = POCNedbank;
 				SWIFT_OBJC_BRIDGING_HEADER = POCSwiftAnalytics/POCSwiftAnalytics_Bridging_Header.h;
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -552,7 +553,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = B44PP7SCQL;
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = "";
@@ -567,7 +568,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = za.co.gacreations.POCSwiftAnalytics;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "02e0b92f-7ac9-4a24-9157-b3aaf5bb86f7";
+				PROVISIONING_PROFILE_SPECIFIER = POCNedbank;
 				SWIFT_OBJC_BRIDGING_HEADER = POCSwiftAnalytics/POCSwiftAnalytics_Bridging_Header.h;
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 1;

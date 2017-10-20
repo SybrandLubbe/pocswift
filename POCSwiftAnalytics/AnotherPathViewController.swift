@@ -24,8 +24,8 @@ class AnotherPathViewController: UIViewController {
         
         let button = UIButton(frame: CGRect(x: 0, y: screenHeight - 60, width: screenWidth, height: 60))
         button.setTitle("Close Screen", for: .normal)
-        button.backgroundColor = UIColor.white
-        button.setTitleColor(UIColor.black, for: .normal)
+        button.backgroundColor = UIColor(red: 0.0/255, green: 99.0/255, blue: 65.0/255, alpha: 1.0)
+        button.setTitleColor(UIColor.white, for: .normal)
         //make the buttons content appear in the top-left
         button.contentHorizontalAlignment = .right
         button.contentVerticalAlignment = .center

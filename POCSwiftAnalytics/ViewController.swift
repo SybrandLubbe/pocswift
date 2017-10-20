@@ -24,6 +24,7 @@ class ViewController: UIViewController {
         
         //TrackingHelper.trackEvent(actionName: "Log In", contextData: ["n.loggedin": "1", "n.userkey": "123456"])
         TrackingHelper.trackScreenView(screenName: "Home", contextData: [:])
+        TrackingHelper.trackEvent(actionName: "ClosedStart", contextData: [:])
         
 
     }

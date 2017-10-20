@@ -25,7 +25,7 @@ class StartViewController: UIViewController, UIScrollViewDelegate {
         //Analytics Tracking Here
         TrackingHelper.trackEvent(actionName: "Log In", contextData: ["n.loggedin": "1", "n.userkey": "123456"])
         TrackingHelper.trackScreenView(screenName: "StartPage", contextData: [:])
-        TrackingHelper.trackEvent(actionName: "ButtonCick", contextData: [:])
+        TrackingHelper.trackEvent(actionName: "EnterApp", contextData: [:])
 
         viewArray = [view1,view2,view3]
         StartView.isPagingEnabled = true

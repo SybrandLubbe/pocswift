@@ -16,11 +16,11 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TMe-0r-3en">
-                    <rect key="frame" x="135" y="53" width="105" height="107"/>
+                    <rect key="frame" x="135" y="148" width="105" height="107"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
                 </imageView>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="This will be a label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0yH-No-VcU">
-                    <rect key="frame" x="55" y="191" width="264" height="128"/>
+                    <rect key="frame" x="55" y="316" width="264" height="128"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
                     <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
                     <color key="textColor" red="0.99518171490333729" green="0.99051885646432003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

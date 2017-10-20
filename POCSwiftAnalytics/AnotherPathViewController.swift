@@ -17,6 +17,7 @@ class AnotherPathViewController: UIViewController {
         self.title = "Final Screen"
         
         TrackingHelper.trackScreenView(screenName: "Final Screen", contextData: [:])
+        TrackingHelper.trackEvent(actionName: "closeScreen", contextData: [:])
         
         let screenSize = UIScreen.main.bounds
         let screenWidth = screenSize.width

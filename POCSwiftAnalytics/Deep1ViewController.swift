@@ -16,6 +16,7 @@ class Deep1ViewController: UIViewController {
         self.title = "Deep Link"
         
         TrackingHelper.trackScreenView(screenName: "Deep Link 1", contextData: [:])
+        TrackingHelper.trackEvent(actionName: "closeScreen", contextData: [:])
         
         let screenSize = UIScreen.main.bounds
         let screenWidth = screenSize.width

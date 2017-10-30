@@ -19,6 +19,7 @@ class FormsAViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        self.hideKeyboard()
         
         self.title = "Forms"
         

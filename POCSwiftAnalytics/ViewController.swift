@@ -26,6 +26,8 @@ class ViewController: UIViewController {
         TrackingHelper.trackScreenView(screenName: "Home", contextData: [:])
         TrackingHelper.trackEvent(actionName: "ClosedStart", contextData: [:])
         
+        
+        
 
     }
     

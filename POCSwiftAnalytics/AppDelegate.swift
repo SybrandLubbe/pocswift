@@ -8,6 +8,23 @@
 
 import UIKit
 
+extension UIViewController
+{
+    func hideKeyboard()
+    {
+        let tap: UITapGestureRecognizer = UITapGestureRecognizer(
+            target: self,
+            action: #selector(UIViewController.dismissKeyboard))
+        
+        view.addGestureRecognizer(tap)
+    }
+    
+    func dismissKeyboard()
+    {
+        view.endEditing(true)
+    }
+}
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -19,6 +36,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         ADBMobile.collectLifecycleData()
         ADBMobile.setDebugLogging(true);
         UIApplication.shared.statusBarStyle = .lightContent
+        
         
         return true
     }
